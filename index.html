@@ -1,1 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula Nails Studio | Tu estilo, en la punta de tus dedos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
 
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">Paula Nails</span>
+            </a>
+            <div class="nav-links">
+                <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+                <a href="#beneficios" class="nav-link">Beneficios</a>
+                <a href="#galeria" class="nav-link">Galería</a>
+                <a href="#contacto" class="nav-link cta-nav">Contáctame</a>
+            </div>
+            <button class="menu-toggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menú móvil -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#sobre-mi" class="mobile-link">Sobre Mí</a>
+            <a href="#beneficios" class="mobile-link">Beneficios</a>
+            <a href="#galeria" class="mobile-link">Galería</a>
+            <a href="#contacto" class="mobile-link">Contáctame</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="floating-elements">
+                <span class="float-element el-1">✦</span>
+                <span class="float-element el-2">♡</span>
+                <span class="float-element el-3">✧</span>
+                <span class="float-element el-4">❀</span>
+                <span class="float-element el-5">✦</span>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge reveal-up">
+                <span class="badge-icon">♡</span>
+                <span>Belleza artesanal para ti</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line reveal-up delay-1">Tus uñas,</span>
+                <span class="title-line title-accent reveal-up delay-2">tu obra de arte</span>
+            </h1>
+            <p class="hero-subtitle reveal-up delay-3">
+                Diseños exclusivos que expresan tu personalidad. 
+                Porque cada detalle cuenta y tú mereces brillar.
+            </p>
+            <div class="hero-cta reveal-up delay-4">
+                <a href="#contacto" class="btn btn-primary">
+                    <span>Quiero mis uñas</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#galeria" class="btn btn-secondary">
+                    <span>Ver diseños</span>
+                </a>
+            </div>
+            <div class="hero-stats reveal-up delay-5">
+                <div class="stat">
+                    <span class="stat-number" data-count="500">0</span>
+                    <span class="stat-label">Clientas felices</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="1000">0</span>
+                    <span class="stat-label">Diseños creados</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Años de pasión</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual reveal-scale">
+            <div class="hero-image-wrapper">
+                <div class="hero-image-frame">
+                    <div class="image-placeholder">
+                        <div class="placeholder-content">
+                            <span class="placeholder-icon">💅</span>
+                            <span class="placeholder-text">Tu próximo look</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-decoration dec-1"></div>
+                <div class="hero-decoration dec-2"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Desliza</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Sobre la Marca -->
+    <section class="about" id="sobre-mi">
+        <div class="about-container">
+            <div class="about-image reveal-left">
+                <div class="image-frame">
+                    <div class="image-placeholder about-placeholder">
+                        <span class="placeholder-icon">👩‍🎨</span>
+                        <span class="placeholder-text">Paula</span>
+                    </div>
+                </div>
+                <div class="about-badge">
+                    <span class="badge-year">5+</span>
+                    <span class="badge-text">años creando belleza</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-tag reveal-up">✦ Conoce mi historia</span>
+                <h2 class="section-title reveal-up delay-1">
+                    Pasión convertida en <span class="text-accent">arte</span>
+                </h2>
+                <div class="about-text reveal-up delay-2">
+                    <p>
+                        Hola, soy <strong>Paula</strong> y desde pequeña supe que quería crear belleza. 
+                        Lo que comenzó como un hobby haciendo las uñas de mis amigas, se transformó en 
+                        mi mayor pasión y ahora en mi emprendimiento.
+                    </p>
+                    <p>
+                        Cada diseño que creo lleva mi corazón. Me encanta escuchar tus ideas, entender 
+                        tu estilo y convertirlo en uñas que te hagan sentir <em>increíble</em>. 
+                        No solo hago uñas bonitas, creo experiencias de autocuidado y amor propio.
+                    </p>
+                </div>
+                <div class="about-values reveal-up delay-3">
+                    <div class="value">
+                        <span class="value-icon">♡</span>
+                        <span class="value-text">Amor por el detalle</span>
+                    </div>
+                    <div class="value">
+                        <span class="value-icon">✧</span>
+                        <span class="value-text">Creatividad sin límites</span>
+                    </div>
+                    <div class="value">
+                        <span class="value-icon">❀</span>
+                        <span class="value-text">Productos de calidad</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits" id="beneficios">
+        <div class="benefits-bg">
+            <div class="benefits-pattern"></div>
+        </div>
+        <div class="benefits-container">
+            <div class="benefits-header">
+                <span class="section-tag reveal-up">✦ ¿Por qué elegirme?</span>
+                <h2 class="section-title reveal-up delay-1">
+                    Más que uñas bonitas, <br>
+                    <span class="text-accent">una experiencia única</span>
+                </h2>
+            </div>
+            <div class="benefits-grid">
+                <article class="benefit-card reveal-up delay-1">
+                    <div class="benefit-icon">
+                        <span>✨</span>
+                    </div>
+                    <h3 class="benefit-title">Estilo Único</h3>
+                    <p class="benefit-text">
+                        Diseños personalizados que reflejan tu personalidad. 
+                        Desde lo más clásico hasta las tendencias más atrevidas.
+                    </p>
+                </article>
+                <article class="benefit-card reveal-up delay-2">
+                    <div class="benefit-icon">
+                        <span>💎</span>
+                    </div>
+                    <h3 class="benefit-title">Calidad Premium</h3>
+                    <p class="benefit-text">
+                        Materiales de primera calidad que cuidan tus uñas naturales 
+                        y garantizan durabilidad y brillo.
+                    </p>
+                </article>
+                <article class="benefit-card reveal-up delay-3">
+                    <div class="benefit-icon">
+                        <span>☁️</span>
+                    </div>
+                    <h3 class="benefit-title">Comodidad Total</h3>
+                    <p class="benefit-text">
+                        Uñas livianas y cómodas que puedes usar todo el día 
+                        sin sentir que llevas algo extra.
+                    </p>
+                </article>
+                <article class="benefit-card reveal-up delay-4">
+                    <div class="benefit-icon">
+                        <span>🎨</span>
+                    </div>
+                    <h3 class="benefit-title">Variedad Infinita</h3>
+                    <p class="benefit-text">
+                        Colores, formas, acabados y diseños para cada ocasión. 
+                        Tu imaginación es el límite.
+                    </p>
+                </article>
+                <article class="benefit-card reveal-up delay-5">
+                    <div class="benefit-icon">
+                        <span>💖</span>
+                    </div>
+                    <h3 class="benefit-title">Autoexpresión</h3>
+                    <p class="benefit-text">
+                        Tus uñas son tu lienzo personal. Expresa quién eres 
+                        y cómo te sientes cada día.
+                    </p>
+                </article>
+                <article class="benefit-card benefit-cta reveal-up delay-6">
+                    <div class="benefit-cta-content">
+                        <span class="benefit-cta-icon">→</span>
+                        <h3 class="benefit-cta-title">¿Lista para brillar?</h3>
+                        <a href="#contacto" class="benefit-cta-link">
+                            Agenda tu cita
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="gallery" id="galeria">
+        <div class="gallery-container">
+            <div class="gallery-header">
+                <span class="section-tag reveal-up">✦ Inspiración</span>
+                <h2 class="section-title reveal-up delay-1">
+                    Diseños que <span class="text-accent">enamoran</span>
+                </h2>
+                <p class="gallery-subtitle reveal-up delay-2">
+                    Cada set es único, cada detalle importa. 
+                    Encuentra tu próxima obsesión.
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-1 reveal-scale">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">💅</span>
+                            <span class="placeholder-text">Diseño Elegante</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Tendencia</span>
+                        <h4>French Moderno</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-2 reveal-scale delay-1">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">✨</span>
+                            <span class="placeholder-text">Diseño Glam</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Popular</span>
+                        <h4>Glitter Dorado</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-3 reveal-scale delay-2">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">🌸</span>
+                            <span class="placeholder-text">Diseño Floral</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Nuevo</span>
+                        <h4>Flores de Cerezo</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-4 reveal-scale delay-3">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">💎</span>
+                            <span class="placeholder-text">Diseño Cristales</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Premium</span>
+                        <h4>Crystal Nails</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-5 reveal-scale delay-4">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">🎀</span>
+                            <span class="placeholder-text">Diseño Cute</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Favorito</span>
+                        <h4>Soft & Girly</h4>
+                    </div>
+                </div>
+                <div class="gallery-item item-6 reveal-scale delay-5">
+                    <div class="gallery-image">
+                        <div class="image-placeholder gallery-placeholder">
+                            <span class="placeholder-icon">🖤</span>
+                            <span class="placeholder-text">Diseño Bold</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Audaz</span>
+                        <h4>Dark Glam</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta reveal-up">
+                <p>¿Quieres ver más? Sígueme en Instagram</p>
+                <a href="#" class="btn btn-outline" target="_blank">
+                    <span>@paulanails</span>
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/>
+                        <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/>
+                        <circle cx="18.406" cy="5.594" r="1.44"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <span class="section-tag reveal-up">✦ Lo que dicen de mí</span>
+            <h2 class="section-title reveal-up delay-1">
+                Clientas <span class="text-accent">felices</span>
+            </h2>
+            <div class="testimonials-slider reveal-up delay-2">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"Paula es una artista. Mis uñas siempre quedan perfectas y duran muchísimo. ¡La recomiendo totalmente!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">M</div>
+                            <div class="author-info">
+                                <span class="author-name">María G.</span>
+                                <span class="author-detail">Clienta frecuente</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"Encontré mi nail artist favorita. Paula entiende exactamente lo que quiero y siempre me sorprende con sus diseños."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">C</div>
+                            <div class="author-info">
+                                <span class="author-name">Carolina R.</span>
+                                <span class="author-detail">Desde hace 2 años</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p>"Las mejores uñas que he tenido. Super cómodas, hermosas y la atención de Paula es increíble. 10/10 siempre."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">L</div>
+                            <div class="author-info">
+                                <span class="author-name">Lucía M.</span>
+                                <span class="author-detail">Clienta feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción / Contacto -->
+    <section class="cta-section" id="contacto">
+        <div class="cta-bg">
+            <div class="cta-gradient"></div>
+            <div class="cta-pattern"></div>
+        </div>
+        <div class="cta-container">
+            <div class="cta-content">
+                <span class="section-tag reveal-up">✦ ¿Lista para brillar?</span>
+                <h2 class="cta-title reveal-up delay-1">
+                    Tu próximo look <br>
+                    <span class="text-accent">te está esperando</span>
+                </h2>
+                <p class="cta-text reveal-up delay-2">
+                    Escríbeme y juntas crearemos el diseño perfecto para ti. 
+                    ¡Agenda tu cita y prepárate para enamorarte de tus uñas!
+                </p>
+                <div class="cta-buttons reveal-up delay-3">
+                    <a href="https://wa.me/1234567890" class="btn btn-whatsapp" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        <span>Escríbeme por WhatsApp</span>
+                    </a>
+                    <a href="https://instagram.com/paulanails" class="btn btn-instagram" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/>
+                            <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/>
+                            <circle cx="18.406" cy="5.594" r="1.44"/>
+                        </svg>
+                        <span>Sígueme en Instagram</span>
+                    </a>
+                </div>
+            </div>
+            <div class="cta-card reveal-scale">
+                <div class="cta-card-inner">
+                    <div class="cta-card-icon">💅✨</div>
+                    <h3>Agenda tu cita</h3>
+                    <p>Diseños exclusivos esperando por ti</p>
+                    <div class="cta-card-features">
+                        <span>✓ Consulta gratuita</span>
+                        <span>✓ Diseño personalizado</span>
+                        <span>✓ Materiales premium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">✦</span>
+                        <span class="logo-text">Paula Nails</span>
+                    </a>
+                    <p class="footer-tagline">
+                        Tu estilo, en la punta de tus dedos.
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <span class="footer-social-label">Sígueme</span>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/>
+                                <path d="M12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/>
+                                <circle cx="18.406" cy="5.594" r="1.44"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">
+                    © 2025 Paula Nails Studio. Hecho con 💖 para ti.
+                </p>
+                <p class="footer-quote">
+                    "La belleza comienza en el momento en que decides ser tú misma"
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
